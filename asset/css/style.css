@@ -1,0 +1,170 @@
+@font-face{
+	src:url('../font/ProximaNovaSoft-Regular.otf');
+	font-family: 'proxima';
+}
+*{
+	margin: 0;
+	font-family: 'proxima';
+}
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+
+/*Header*/
+/*Header navv */
+header .container .bagian-kiri .header-navv{
+	width: 100%;
+}
+header .container .menu ul li{
+	list-style: none;
+	float: left;
+}
+.logo img {
+	width: 100px;
+}
+.logo, .search, .menu{
+	float: left;
+}
+
+/* Search */
+.search input {
+	border: none;
+	background:transparent;
+	outline: none;
+	width: 200px;
+}
+.search {
+	background-color: #cccccc;
+	width: 24%;
+	padding: 15px 15px;
+	height: 20px;
+	border-radius: 4px;
+	margin-top: 40px;
+}
+.search i {
+	color: #ababab;
+}
+
+/* Menu */
+.menu{
+	background-color: #999999;
+	height: 50px;
+	width: 63%;
+	margin-left: -4px;
+	margin-top: 40px;
+}
+.menu ul {
+	float: right;
+	margin-right: 20px;
+}
+.menu ul li a {
+	color: #FFCB05;
+	display: inline-block;
+	padding: 7px 10px;
+	text-align: center;
+	transition: .3s ease;
+}
+.menu ul li:hover,.menu ul li a:hover{
+	background-color: #FFCB05;
+	color: #736357;
+	cursor: pointer;
+	border-bottom: 2px solid #E6E6E6;
+}
+.menu ul li a .fa{
+	font-size: 20px;
+}
+.menu ul li a .ap{
+	font-size: 10px;
+}
+
+/*ii-bg*/
+.ii-bg{
+	background-color: #F2F2F2;
+	display: inline-block;
+	padding: 20px 0px;
+	width: 100%;
+}
+/*share*/
+.share{
+	float: left;
+	background-color: #fff;
+	padding: 55px 10px;
+	border-radius: 15px;
+	margin-left: 20px;
+	height: 33px;
+}
+.share input {
+	border: none;
+	width: 450px;
+	padding: 10px 0px;
+	border-bottom: 2px solid #D9D9D9;
+	outline: none;
+}
+.share .btn{
+	margin-top: 10px;
+}
+.share .btn button{
+	border: none;
+	padding: 7px 10px;
+	border-radius: 8px;
+	cursor: pointer;
+	outline: none;
+}
+.share .btn button:last-child{
+	float: right;
+	padding: 7px 25px;
+}
+
+/* coleagues */ 
+.coleagues{
+	float: right;
+	background-color: #fff;
+	border-radius: 20px;
+	margin-right: 20px;
+	padding: 10px;	
+}
+.coleagues .c-s .c-s-o{
+	float: left;
+	padding-left: 20px;
+}
+.coleagues .c-s .c-s-t{
+	float: right;
+	padding-right: 25px;
+}
+ .coleagues img{
+ 	border-radius: 15px;
+ 	height: 80px;
+ 	width: 80px;
+ }
+.coleagues .ima .ima-ii{
+	float: left;
+	padding:0px 10px;
+	text-align: center;
+}
+.coleagues .ima .ima-ii .imaii-a .imaii-p{
+	color: #fff;
+	font-size: 12px;
+	border-radius: 100%;
+	background-color: #FFCB05;
+	width: 25px;
+	padding: 4px 0px;
+	margin: 0 auto;
+}
+ /*Kanan*/
+ .kanan .kanan-bg{
+ 	background-color: #F2F2F2;
+ 	display: inline-block;
+ 	width: 100%;
+ 	margin-left: -40px;
+ }
+ .kanan{
+ 	margin-top: 40px;
+ }
+ .kanan img{
+ 	width:150px;
+ 	height: 150px;
+ 	border-radius: 100%;
+ }
